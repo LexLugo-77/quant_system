@@ -1,0 +1,39 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Data and Cache
+data/cache/
+*.parquet
+*.h5
+*.csv
+.qlib/
+qlib_data/
+
+# Model checkpoints
+models/checkpoints/
+*.pt
+*.bin
+*.pkl
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
